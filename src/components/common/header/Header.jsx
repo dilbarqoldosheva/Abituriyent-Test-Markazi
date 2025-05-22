@@ -13,29 +13,24 @@ const Header = () => {
         <nav className='flexSB'>
           <ul className={click ? "mobile-nav" : "flexSB "} onClick={() => setClick(false)}>
             <li>
-              <Link to='/'>Home</Link>
+              <Link to='/'>Biz haqimizda</Link>
             </li>
             <li>
-              <Link to='/courses'>All Courses</Link>
+              <Link to='/courses'>Universitetlar</Link>
             </li>
             <li>
-              <Link to='/about'>About</Link>
+              <Link to='/about'>Natijalar</Link>
             </li>
             <li>
-              <Link to='/team'>Team</Link>
+              <Link to='/team'>Galereya</Link>
             </li>
             <li>
-              <Link to='/pricing'>Pricing</Link>
+              <Link to='/pricing'>Kantakt</Link>
             </li>
-            <li>
-              <Link to='/journal'>Journal</Link>
-            </li>
-            <li>
-              <Link to='/contact'>Contact</Link>
-            </li>
+            
           </ul>
           <div className='start'>
-            <div className='button'>GET CERTIFICATE</div>
+            <a className="startt" href="https://new.birdarcha.uz/document/b9003fe2-70a3-40bd-9269-f0e5b210fe82"><div className='button'>Guvohnomani olish</div></a>
           </div>
           <button className='toggle' onClick={() => setClick(!click)}>
             {click ? <i className='fa fa-times'> </i> : <i className='fa fa-bars'></i>}

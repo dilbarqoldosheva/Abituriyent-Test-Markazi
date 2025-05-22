@@ -31,10 +31,13 @@ header ul li a {
   transition: 0.5s;
 }
 header ul li a:hover {
-  color: #1eb2a6;
+  color: #1b0651;
+}
+.startt{
+  color: white;
 }
 .start {
-  background-color: #1eb2a6;
+  background-color: #1b0651;
   padding: 30px 70px;
   color: #fff;
   clip-path: polygon(10% 0%, 100% 0, 100% 100%, 0% 100%);
@@ -49,9 +52,10 @@ header ul li a:hover {
   }
   header {
     margin: 0;
-    background-color: #1eb2a6;
+    background-color: #1b0651;
     position: relative;
   }
+  
   header ul.flexSB {
     display: none;
   }
@@ -72,6 +76,6 @@ header ul li a:hover {
     top: 7vh;
     left: 0;
     width: 100%;
-    background-color: #1eb2a6;
+    background-color: #1b0651;
   }
 }

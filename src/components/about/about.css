@@ -29,6 +29,8 @@
   width: 70px;
   height: 70px;
 }
+
+
 .aboutHome .item h2 {
   font-size: 20px;
   margin-bottom: 15px;
@@ -37,7 +39,7 @@
   color: #999999;
 }
 .aboutHome .item:hover {
-  background-color: #1eb2a6;
+  background-color: #1b0651;
   color: #fff;
   cursor: pointer;
   box-shadow: 0 5px 25px -2px rgb(0 0 0 / 6%);
